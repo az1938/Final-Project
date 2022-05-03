@@ -1,0 +1,45 @@
+.container {
+	max-width: 640px;
+	margin: 30px auto;
+	background: transparent;
+	border-radius: 8px;
+	padding: 20px;
+}
+
+.comment {
+	display: block;
+	transition: all 1s;
+}
+
+.commentClicked {
+  font-size: 3.5vw;
+  font-weight: 700;
+	margin-top: -3vw;
+	margin-bottom: 5vw;
+  color:#DD7E6B;
+}
+
+.container textarea {
+	width: 43%;
+	border: none;
+	background: white;
+	padding: 5px 10px;
+	height: 50%;
+	border-radius: 5px;
+	transition: all 0.5s;
+}
+
+.form{
+	text-align: right;
+}
+
+button.primaryContained {
+	font-style: 1.5vw;
+  background-color: white;
+  border-radius: 5vw;
+  border-width: 0.5vw;
+  border-color: #DD7E6B;
+  margin-top: 3vw;
+	margin-right: 12vw;
+  padding:0.5vw 1vw;
+}

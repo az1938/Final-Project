@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+  <div class="pic1">
+  <div class="topnav">
+  <a class ="active" href="index.html">
+   <div class ="active1">QUARANTINE</div>
+   <img class = "icon1" src="love (3).png" alt="">
+   <div class ="active2">SUPPORT</div>
+  </a>
+  <div class="topnav-right">
+  <a href="page1.html">MENTAL HEALTH SUPPORT</a>
+  <a href="page2.html">WORKOUT SUPPORT</a>
+  <a href="page3.html">FOOD SUPPORT</a>
+  <a href="page4.html">INFORMATION SUPPORT</a>
+  </div>
+  </div>
+  </div>
+
+  <div class="part1">
+  <h2> QUARANTINE COUNTDOWN: </h2>
+  <p class="abc">Choose your end quarantine date:</p>
+  <br>
+  <label for="myDate" id="myDate">
+  <input class="efg" type="date" name="myDate" id="initialDate" min='1899-01-01'>
+  <button class="efg" onclick="add()">Click to add date</button>
+  <br>
+  <br>
+  <h2 class = countdown>
+  <span class="big-text" id="days">0</span>
+  <span>DAYS</span>
+  <br>
+  <span class="big-text" id="hours">0</span>
+  <span>HOURS</span>
+  </h2>
+  <br>
+  <p class="abc">until your quarantine end...</p>
+  </div>
+
+  <div class="part2">
+    <h2 id="challenge">DAILY CHALLENGE:</h2>
+
+  <button id="executeButton">Click to generate</button>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+
+  <div id="outputContainer">
+    <p id="outputText"></p>
+  </div>
+  </div>
+  <script src="script.js"></script>
