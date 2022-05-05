@@ -246,13 +246,19 @@ h1{
 }
 
 .v{
-  position: relative; padding-bottom: 10%; height: 0; overflow: hidden; max-width: 60%; border-radius: 1vw;
+  position: relative;
+  padding-bottom: 150px;
+  height: 0vw;
+  overflow: hidden;
+  max-width: 30vw;
+  border-radius: 1vw;
 }
 
 .smalltitle{
   padding: 5vh;
   text-align: left;
   width: 4vw;
+  font-size: 1.2vw;
   color: #2D6A4F;
 }
 
@@ -438,51 +444,52 @@ a[data-fancybox] img {
 }
 
 #timer{
-	font-size: 100px;
+	font-size: 6vw;
 	font-weight:900;
-  color: #DD7E6B
+  color: #DD7E6B;
+  margin-bottom: 2vw;
 }
 
 #control{
  display: flex;
- gap: 1.5vw;
+ gap: 1vw;
  justify-content: center;
 }
 
 #control>#startbtn{
+  font-size: 0.5vw;
   font-style: 1.5vw;
   background-color: white;
   border-radius: 5vw;
   border-width: 0.4vw;
   border-color: #86E1A4;
-  margin-top: -0.3vw;
   padding:0.5vw 1vw;
 }
 #control>#pausebtn{
+  font-size: 0.5vw;
   font-style: 1.5vw;
   background-color: white;
   border-radius: 5vw;
   border-width: 0.4vw;
   border-color: #9ACFFE;
-  margin-top: -0.3vw;
   padding:0.5vw 1vw;
 }
 #control>#resumebtn{
+  font-size: 0.5vw;
   font-style: 1.5vw;
   background-color: white;
   border-radius: 5vw;
   border-width: 0.4vw;
   border-color: #FD9A43;
-  margin-top: -0.3vw;
   padding:0.5vw 1vw;
 }
 #control>#resetbtn{
+  font-size: 0.5vw;
   font-style: 1.5vw;
   background-color: white;
   border-radius: 5vw;
   border-width: 0.4vw;
   border-color: #DD7E6B;
-  margin-top: -0.3vw;
   padding:0.5vw 1vw;
 }
 
@@ -526,7 +533,7 @@ a[data-fancybox] img {
   font-style: 1.5vw;
   font-weight: 300;
   background-image: url(food.jpg);
-  height: 120vh;
+  height: 112vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -540,8 +547,8 @@ a[data-fancybox] img {
  background-color: rgb(255,255,255,0.9);
  border-radius: 2vw;
  width: 50%;
- padding: 3vw 0vw;
-
+ padding-top: 3vw;
+ padding-bottom: 2vw;
  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -550,11 +557,11 @@ a[data-fancybox] img {
   font-weight: 300;
   text-align: center;
   padding: 0.5vw 1.6vw;
+  margin-bottom: 2vw;
   text-decoration: none;
   font-size: 1.3vw;
   transition-duration: 1s;
-  transition-timing-function: ease-in-out;
-}
+  transition-timing-function: ease-in-out;}
 
 .webs2 a:hover {
   color: #2D6A4F;
@@ -723,6 +730,7 @@ a[data-fancybox] img {
 }
 
 .onehour{
+  font-size: 0.5vw;
   font-style: 1.5vw;
   background-color: white;
   border-radius: 5vw;
@@ -733,7 +741,7 @@ a[data-fancybox] img {
 }
 
 #demo{
-  margin: 1vw;
+  margin: 2vw;
   font-size: 3.5vw;
   font-weight: 700;
   color:#DD7E6B;
@@ -745,7 +753,7 @@ a[data-fancybox] img {
   font-style: 1.5vw;
   font-weight: 300;
   background-image: url(authority.jpg);
-  height: 75vh;
+  height: 70vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -759,7 +767,8 @@ a[data-fancybox] img {
  background-color: rgb(255,255,255,0.9);
  border-radius: 2vw;
  width: 50%;
- padding: 3vw 0vw;
+ padding-top: 3vw;
+ padding-bottom: 2vw;
  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -768,6 +777,7 @@ a[data-fancybox] img {
   font-weight: 300;
   text-align: center;
   padding: 0.5vw 1.6vw;
+  margin-bottom: 1vw;
   text-decoration: none;
   font-size: 1.3vw;
   transition-duration: 1s;
@@ -789,7 +799,7 @@ a[data-fancybox] img {
   font-weight: 500;
   text-align: center;
   margin-top: -0.5vw;
-  margin-bottom: 2vw;
+  margin-bottom: 1vw;
   padding: 0.5vw 1.6vw;
   text-decoration: none;
   font-size: 1.5vw;
@@ -804,7 +814,7 @@ a[data-fancybox] img {
   border-color: #DD7E6B;
   width: 70vw;
   margin-top: 1vw;
-  padding:1vw 0vw;
+  padding:1vw 1vw;
 }
 
 .part15{
