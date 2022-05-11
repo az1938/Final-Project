@@ -15,7 +15,8 @@ body {
 
 .topnav {
   overflow: hidden;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15), 0 3px 10px 0 rgba(0, 0, 0, 0.15);
   width: 100vw;
   height: 12vh;
   padding-top: 3vh;
@@ -457,7 +458,7 @@ a[data-fancybox] img {
 }
 
 #control>#startbtn{
-  font-size: 0.5vw;
+  font-size: 0.7vw;
   font-style: 1.5vw;
   background-color: white;
   border-radius: 5vw;
@@ -466,7 +467,7 @@ a[data-fancybox] img {
   padding:0.5vw 1vw;
 }
 #control>#pausebtn{
-  font-size: 0.5vw;
+  font-size: 0.7vw;
   font-style: 1.5vw;
   background-color: white;
   border-radius: 5vw;
@@ -475,7 +476,7 @@ a[data-fancybox] img {
   padding:0.5vw 1vw;
 }
 #control>#resumebtn{
-  font-size: 0.5vw;
+  font-size: 0.7vw;
   font-style: 1.5vw;
   background-color: white;
   border-radius: 5vw;
@@ -484,7 +485,7 @@ a[data-fancybox] img {
   padding:0.5vw 1vw;
 }
 #control>#resetbtn{
-  font-size: 0.5vw;
+  font-size: 0.7vw;
   font-style: 1.5vw;
   background-color: white;
   border-radius: 5vw;
